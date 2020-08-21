@@ -1,0 +1,320 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <title> CREATING A TABLE</title>
+    </head>
+    <body>
+        <img id="logo_pic" src="images_for_portfolio/logo6.png">
+    		<div class="top_left">
+        <a class="nav" href="HOME.html"><span id="home_bt">HOME</span></a><a class="nav" href="PORTFOLIO.html"><span id="port_bt">PORTFOLIO</span></a><a class="nav"href="works.html"><span id="works_bt">WORKS</span></a><a class="nav" href="ABOUT.html"><span id="about_bt">ABOUT</span><a class="nav" href="CONTACT.html"><span id="con_bt">CONTACT</span></a>
+    		</div>
+   <div class="text">
+     		<img class="logo2" src="images_for_works/table.png">
+    		<div class="hints">	In HTML, sometimes information needs to be placed in the middle of the table.  On this page you will find how to create a table in HTML.  A number of tags are required to create a table. These are explained below.	</div>
+        <div class="parts">"table" tag(&lt;table&gt;&lt;/table&gt;)</div>
+        <div class="hints">   One of the most important for creating a table is the table tag (&lt;table&gt; &lt;/ table&gt;).  </div>
+       <div class="parts">CODE:</div>
+        <pre>
+&lt;table&gt;
+&lt;/table&gt;
+        </pre>
+        <div class="parts"> "tr" tag(&lt;tr&gt;&lt;/tr&gt;)</div>
+        <div class="hints"> Imagine you have a table.  There are several rows of cells along the length and width of the table where different information is contained. Each row along the width of the HTML is called a table row.  The tr tag (&lt;tr&gt;  &lt;/tr&gt;) is used to create each of these rows.  And all the text included in the tr tag will be displayed as a row or line.	</div>
+       <div class="parts">CODE:</div>
+        <pre>
+&lt;table&gt;
+  &lt;tr&gt;
+   Muntasir
+   Nothing
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   Jamee
+   Jama
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   Orjon
+   Nastik
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   Salahuddin
+   Biggani
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   Prottoy
+   Lo*i
+  &lt;/tr&gt;
+&lt;/table&gt;
+       </pre>
+        <div class="parts">"td" tag(&lt;td&gt;&lt;/td&gt;)</div>
+        <div class="hints">		Notice that each table has a column with a row.  That is, there is one or more information in each column.  This data from Row is called table data.  The td (&lt;td&gt; &lt;/td&gt;) tag is used to display data in a table.</div>
+       <div class="parts">CODE:</div>
+        <pre>
+&lt;table&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Muntasir&lt;/td&gt;
+   &lt;td&gt;Nothing&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Jamee&lt;/td&gt;
+   &lt;td&gt;Jama&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Orjon&lt;/td&gt;
+   &lt;td&gt;Nastik&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Salahuddin&lt;/td&gt;
+   &lt;td&gt;Biggani&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Prottoy&lt;/td&gt;
+   &lt;td&gt;Lo*i&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+       </pre>
+        <div class="parts"> "thead" tag(&lt;thead&gt;&lt;/thead&gt;) and "tbody" tag(&lt;tbody&gt;&lt;/tbody&gt;)  </div>
+        <div class="hints">		The table of the table and the data was displayed but the table head was not displayed. Table Head did not understand what? I'm saying. To understand what kind of information on any site of the table or column is given some data in the top ROW. In the process of this data, it is called Table Head. For this, the tag is used to display table head's data. But the problem is that the rest will be displayed as? That's we have to give instructions to the computer for this also. The information you do not want to identify as the table, type in (&lt;tbody&gt; &lt;/tbody&gt;) tag. In all, our final product will be somewhat like this.	</div>
+        <div class="parts">CODE:</div>
+        <pre>
+&lt;table&gt;
+  &lt;thead&gt;
+   &lt;tr&gt;
+     &lt;th&gt;Name&lt;/th&gt;
+     &lt;th&gt;Nickname&lt;th&gt;
+   &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;Muntasir&lt;/td&gt;
+     &lt;td&gt;Nothing&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;Jamee&lt;/td&gt;
+     &lt;td&gt;Jama&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;Orjon&lt;/td&gt;
+     &lt;td&gt;Nastik&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;Salahuddin&lt;/td&gt;
+     &lt;td&gt;Biggani&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;Prottoy&lt;/td&gt;
+     &lt;td&gt;Lo*i&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+       </pre>
+        
+    	  <div class="parts">OUTPUT</div>
+    		<img class="output_pics" src="images_for_works/output_pic9.jpg">
+        <h2><div class="parts"> ADDING SOME STYLES</div></h2>
+				<div class="hints">		The table was created but it was not made stylish. So, we will make it stylish now.  So first we will put a border with it.</div>
+        <div class="parts">ADDING BORDER</div>
+        <div class="hints">		Type the following code in your CSS file to insert the border.		</div>
+        <div class="parts">CODE:</div>
+        <pre>
+table,th,td{
+border:1px solid black;
+}
+       </pre>
+       <div class="parts">OUTPUT</div>
+       <img class="output_pics" src="images_for_works/output_pic10.jpg">
+       <div class="parts">BORDER COLLAPSE</div>
+       <div class="hints">	Looking at the picture of the output above, you must have realized that it did not look the way we wanted to from the border.  One thing is for sure! There is a problem free with every solution of programming.  So let's move on to the solution of our problem now.  We now need to use the border-collapse style to bring the borders together.  The following code is displayed.</div>
+        <div class="parts"> CODE:</div>
+       <pre>
+table,th,td{
+border-collapse:collapse;
+}
+       </pre>
+       <div class="parts" >OUTPUT</div>
+       <img class="output_pics" src="images_for_works/output_pic11.jpg">
+       <div class="parts">BORDER SPACING</div>
+       <div class="hints">	Look, again a problem has appeared. The borders have been displayed in the size of the text, that is, very close to the text.  For this we have to use padding style now.  You must have understood by now why I am using padding style. So I did not say.  The code is displayed below.	</div>
+        <div class="parts"> CODE:</div>
+       <pre>
+th,td{
+padding:5px;
+}
+       </pre>
+       <img class="output_pics" src="images_for_works/output_pic12.jpg">
+       <div class="parts">CHANGING WIDTH</div>
+       <div class="hints">	When you look at the output, you will notice that the table is not displayed across the entire screen.  So now we have to increase its width.  To do this, type the following code in the corresponding place of CSS.	</div>
+        <div class="parts"> CODE:</div>
+       <pre>
+table{
+width:100%
+}
+       </pre>
+       <div class="parts">TEXT-ALIGN</div>
+       <div class="hints">	Now we need to add a little more style.  When the teble data is too large, it can move to the right of the cell.  For this we need to add text-align style. The following code is given below.	</div>
+        <div class="parts"> CODE:</div>
+       <pre>
+th{
+text-align:left;
+}
+       </pre>
+        <div class="parts">OUTPUT</div>
+        <img class="output_pics" src="images_for_works/output_pic13.jpg">
+    		<div class="bangla_text">বাংলায়</div>
+    		<div class="hints_bangla">	এইচটিএমএল এ কখনো কখনো তথ্য টেবিলের মাঝে মধ্যে রাখার প্রয়োজন হয়। এইচটিএমএল এ টেবিল কিভাবে তৈরি করতে হয়  সেটাই আপনি এই পেজে পাবেন। টেবিল ক্রিয়েট করার জন্য বেশ কয়েকটি ট্যাগ ট্যাগ প্রয়োজন হয়।এসব গুলো নিচে আলাদা আলাদাভাবেসম ধারাবাহিকভাবে ব্যাখ্যা করা হলো।</div>
+         <div class="parts">"table" tag(&lt;table&gt;&lt;/table&gt;)</div>
+        <div class="hints_bangla">   টেবিল তৈরি করার জন্য সবচেয়ে গুরুত্বপূর্ণ একটি হলো table tag(&lt;table&gt; &lt;/table&gt;)। </div>
+       <div class="parts">CODE:</div>
+        <pre>
+&lt;table&gt;
+&lt;/table&gt;
+        </pre>
+        <div class="parts">"tr" tag(&lt;tr&gt;&lt;/tr&gt;)</div>
+        <div class="hints_bangla">  আপনি একটি টেবিলের কল্পনা করুন। টেবিলটি দৈর্ঘ্য ও প্রস্থ বরাবর বেশ কয়েকটি ঘরের সারি আছে যেখানে বিভিন্ন তথ্য রয়েছে।এইচটিএমএল এর প্রস্থ বরাবর প্রত্যেকটি সারিকে table row বলা হয়। এই প্রত্যেকটি row তৈরি করার জন্য tr tag(&lt;tr&gt; &lt;/tr&gt;) ব্যবহার করা হয়। আর tr ট্যাগ এর অন্তর্ভুক্ত সকল টেক্সট একটি সারি বা লাইন হিসেবে ডিসপ্লে করা হবে।	</div>
+       <div class="parts">CODE:</div>
+        <pre>
+&lt;table&gt;
+  &lt;tr&gt;
+   Muntasir
+   Nothing
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   Jamee
+   Jama
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   Orjon
+   Nastik
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   Salahuddin
+   Biggani
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   Prottoy
+   Lo*i
+  &lt;/tr&gt;
+&lt;/table&gt;
+       </pre>
+
+        <div class="parts">"td" tag(&lt;td&gt;&lt;/td&gt;)</div>
+        <div class="hints_bangla">	লক্ষ করুন প্রত্যেকটি টেবিলের row এর সাথে কলাম ও থাকে। অর্থাৎ প্রত্যেকের ভেতরে কলামের একটা না একটা তথ্য থাকে । Row এর এই তথ্যগুলো কে table data বলা হয়।  এই টেবিল ডাটা ডিসপ্লে করার জন্য td ( &lt;td&gt; &lt;/td&gt;) ট্যাগ ব্যবহার করা হয়।	</div>
+        <div class="parts">CODE:</div>
+        <pre>
+&lt;table&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Muntasir&lt;/td&gt;
+   &lt;td&gt;Nothing&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Jamee&lt;/td&gt;
+   &lt;td&gt;Jama&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Orjon&lt;/td&gt;
+   &lt;td&gt;Nastik&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Salahuddin&lt;/td&gt;
+   &lt;td&gt;Biggani&lt;/td&gt;
+  &lt;/tr&gt;
+  &lt;tr&gt;
+   &lt;td&gt;Prottoy&lt;/td&gt;
+   &lt;td&gt;Lo*i&lt;/td&gt;
+  &lt;/tr&gt;
+&lt;/table&gt;
+       </pre>
+        <div class="parts"> "thead" tag(&lt;thead&gt;&lt;/thead&gt;) and "tbody" tag(&lt;tbody&gt;&lt;/tbody&gt;)  </div>
+        <div class="hints_bangla">		টেবিলের রো এবং ডাটা তো ডিসপ্লে করা হলো কিন্তু টেবিল হেড তো ডিসপ্লে করা হলো না। টেবিল হেড কি সেটা বুঝলেন না?আমি বলছি।কোন টেবিল বা কলামের কোন সাইটে কি ধরনের তথ্য আছে সেটা বোঝানোর জন্য সবার উপরের row তে কিছু ডাটা দেওয়া থাকে।প্রোগ্রামিংয়ে এই ডাটা গুলোকেই টেবিল হেড বলা হয়। এজন্য টেবিল হেড এর ডাটাগুলোকে ডিসপ্লে করানোর জন্য th(th/th) ট্যাগ  ব্যবহার করা হয়। কিন্তু সমস্যা হল তাহলে বাকিগুলো কি কি হিসেবে ডিসপ্লে করা হবে? এজন্য কম্পিউটারকে এটিরও নির্দেশনা দিতে হয়। এ জন্য যেসব তথ্য আপনি টেবিল হিসেবে চিহ্নিত করতে চান না সেগুলো কে tbody(&lt;tbody&gt;&lt;/tbody&gt;)  ট্যাগ এর ভেতরে টাইপ করতে হবে। সব মিলিয়ে আমাদের ফাইনাল প্রোডাক্টটি হবে কিছুটা এরকম।</div>
+        <div class="parts">CODE:</div>
+        <pre>
+&lt;table&gt;
+  &lt;thead&gt;
+   &lt;tr&gt;
+     &lt;th&gt;Name&lt;/th&gt;
+     &lt;th&gt;Nickname&lt;/th&gt;
+   &lt;/tr&gt;
+  &lt;/thead&gt;
+  &lt;tbody&gt;
+    &lt;tr&gt;
+     &lt;td&gt;Muntasir&lt;/td&gt;
+     &lt;td&gt;Nothing&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;Jamee&lt;/td&gt;
+     &lt;td&gt;Jama&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;Orjon&lt;/td&gt;
+     &lt;td&gt;Nastik&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;Salahuddin&lt;/td&gt;
+     &lt;td&gt;Biggani&lt;/td&gt;
+    &lt;/tr&gt;
+    &lt;tr&gt;
+     &lt;td&gt;Prottoy&lt;/td&gt;
+     &lt;td&gt;Lo*i&lt;/td&gt;
+    &lt;/tr&gt;
+  &lt;/tbody&gt;
+&lt;/table&gt;
+       </pre>
+        
+    		
+    		<div class="parts"> আউটপুট:</div>
+    		<img class="output_pics" src="images_for_works/output_pic9.jpg">
+        <div class="parts">কিছু স্টাইল যোগ করা</div>
+				<div class="hints_bangla">		টেবিল তো ক্রিয়েট করা হলো কিন্তু এটাকে স্টাইলিশ বানানো হলো না।এজন্য আমরা এখন এটিকে স্টাইলিশ   বানাবো। তো প্রথমেই আমরা এটির সাথে বর্ডার লাগাবো।</div>
+        <div class="parts">ADDING BORDER</div>
+        <div class="hints">	বর্ডার লাগানোর জন্য নিচের কোডটি আপনার সিএসএস ফাইল এ টাইপ করুন।	</div>
+        <div class="parts">CODE:</div>
+        <pre>
+table,th,td{
+border:1px solid black;
+}
+       </pre>
+       <div class="parts">OUTPUT</div>
+       <img class="output_pics" src="images_for_works/output_pic10.jpg">
+       <div class="parts">BORDER COLLAPSE</div>
+       <div class="hints">	উপরের আউটপুটের ছবিটি দেখে নিশ্চয়ই বুঝতে পেরেছেন যে আমরা বর্ডার থেকে যেভাবে লাগাতে চেয়েছিলাম সেভাবে লাগেনি। সত্যিই একটা কথা সত্য !প্রোগ্রামিং এর প্রত্যেকটা সমাধানের সাথে একটা সমস্যা ফ্রী। তো যাই হোক এখন আমাদের সমস্যার সমাধান এর দিকে আসা যাক। বর্ডার গুলোকে একসাথে লাগিয়ে দেওয়ার জন্য আমাদেরকে এখন বর্ডার কলাপ্স(border-collapse:;) স্টাইল ব্যবহার করতে হবে। নিচের কোডটি প্রদর্শন করা হলো।	</div>
+       <div class="parts">CODE:</div>
+       <pre>
+table,th,td{
+border-collapse:collapse;
+}
+       </pre>
+       <div class="parts" >OUTPUT</div>
+       <img class="output_pics" src="images_for_works/output_pic11.jpg">
+       <div class="parts">BORDER SPACING</div>
+       <div class="hints">	দেখুন আর একটা সমস্যা হাজির হয়ে গেল।বর্ডার গুলো একদম টেক্সটের মাপে অর্থাৎ একদম টেক্সট এর সাথে ঘেঁষে  ডিসপ্লে করা হয়েছে। এজন্য আমাদেরকে এখন প্যাডিং স্টাইল ব্যবহার করতে হবে। কেন প্যাডিং  স্টাইল ব্যবহার করছি সেটা নিশ্চয়ই আপনি এতক্ষণে বুঝে গেছেন।তাই আর বললাম না। এর কোডটি নিচে ডিসপ্লে করা হলো।</div>
+       <div class="parts"> CODE:</div>
+       <pre>
+table{
+padding:5px;
+}
+       </pre>
+       <img class="output_pics" src="images_for_works/output_pic12.jpg">
+       <div class="parts">CHANGING WIDTH</div>
+       <div class="hints">	আউটপুট টি দেখলে আপনি বুঝবেন যে টেবিলটি পুরা স্ক্রিনের প্রস্হ জুড়ে  ডিসপ্লে করা হয়নি। এজন্য আমাদের এখন এটির width বাড়াতে হবে। এজন্য নিচের কোডটি সিএসএস-এর সংশ্লিষ্ট জায়গায় টাইপ করুন।	</div>
+       <div class="parts">CODE:</div>
+       <pre>
+table{
+width:100%
+}
+       </pre>
+       <div class="parts">TEXT-ALIGN</div>
+       <div class="hints">	এবার আরও একটু স্টাইল যোগ করতে হবে। যখন টেবিল ডাটা অনেক বড় হবে, তখন সেটা সেল এর ডান দিকে চলে যেতে পারে। এজন্য আমাদেরকে text-align স্টাইল যুক্ত করতে হবে নিচেরটার কোডটি দেওয়া হল।	</div>
+       <div class="parts">CODE:</div>
+       <pre>
+th{
+text-align:left;
+}
+       </pre>
+        <div class="parts">আউটপুট</div>
+        <img class="output_pics" src="images_for_works/output_pic13.jpg">
+</div>
+    </body>
+         <link rel="stylesheet" type="text/css" href="style_for_form.css">
+</html>
+
+
+

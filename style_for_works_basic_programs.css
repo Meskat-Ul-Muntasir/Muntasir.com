@@ -1,0 +1,68 @@
+#logo_pic{
+width:168%;
+margin-left: 30px;
+padding-bottom: 120px;
+}
+.top_left{
+position:absolute;
+top:80px;
+left:650px;
+}
+#home_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+}
+#port_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+#works_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+#about_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+
+#con_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+.nav{
+    text-decoration: none;
+    }
+.logo2{
+    width: 80%;
+    margin-top: 30px;
+    margin-left: 430px;
+    padding-bottom: 100px;
+}
+.buttons{
+width:105%;
+font-size:82px;
+font-family:sans-serif;
+color:whitesmoke;
+margin-top:150px;
+margin-left:60px;
+background-color:darkblue;
+padding:40px 260px 40px 260px;
+border-radius:80px;
+}
+.text{
+    width: 160%;
+    font-family: sans-serif;
+    font-size: 45px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}

@@ -1,0 +1,153 @@
+
+.top_left{
+position:absolute;
+top:80px;
+left:650px;
+}
+#home_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+}
+#port_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+#works_bt{
+font-size:32px;
+font-family:sans-serif;
+color:pink;
+margin-left:35px;
+}
+#about_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+
+#con_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+.nav{
+text-decoration:none;
+}
+#logo_pic{
+width:169%;
+margin-left:40px;
+}
+#works_pic{
+width:80%;
+margin-left:360px;
+margin-top:130px;
+}
+#text{
+        width: 150%;
+        font-size: 30px;
+        font-family: sans-serif;
+        color: black;
+        padding-right: 60px;
+    	  margin-left: 70px;
+        margin-top:200px;
+    }
+.text2{
+    margin-left: 70px;
+}
+#buttons{
+        margin-top:100px;
+        margin-left:150px;
+        width:150%;
+    }
+#my_programs_bt{
+        width:100%;
+        font-size: 35px;
+        font-family: sans-serif;
+        color: white;
+        background-color: dimgrey;
+        padding: 22px 105px 22px 105px;
+        border-radius:30px;
+    }
+#prob_bt{
+        width: 100%;
+        font-size: 35px;
+        font-family: sans-serif;
+        color: white;
+        background-color: dimgrey;
+        padding: 22px 105px 22px 105px;
+        border-radius:30px;
+        margin-left:60px;
+        
+    }
+pre{
+width: 120%;
+font-size: 48px;
+font-family: Consolas,"courier new";
+color:green;
+background-color:#f1f1f1;
+padding-left: 100px;
+padding-right: 730px;
+padding-top: 100px;
+padding-bottom: 100px;
+border-radius: 35px;
+font-size: 50px;
+}
+.lang_text{
+    font-size: 56px;
+    font-family: sans-serif;
+    margin-left: 70px;
+    margin-top: 180px;
+    background-color: steelblue;
+    padding: 20px 1450px 20px 50px;
+    border-radius: 20px;
+    color: white;
+}
+.under_lang_text{
+    width: 160%;
+    font-family: sans-serif;
+    font-size: 45px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.program_text{
+    width: 125%;
+    margin-left: 70px;
+    font-size: 67px;
+    font-family: sans-serif;
+    padding-top: 70px;
+    color: black;
+}
+.under_program_text{
+    width: 130%;
+    font-size: 45px;
+    font-family: sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 24px;
+    color: black;
+}
+.bt{
+    width: 125%;
+    font-size: 100px;
+    font-family: sans-serif;
+    margin-top: 500px;
+    color: black;
+    margin-left: 360px;
+}
+.my_prog_pic{
+    width: 80%;
+    margin-top: 130px;
+    margin-left: 400px;
+    padding-bottom: 200px;
+}
+
+
+
+
+
+

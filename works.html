@@ -1,0 +1,388 @@
+<!DOCTYPE html>
+<html>
+    <head>
+     <title>WORKS</title>
+    </head>
+    <body>
+     <div class="top_left">
+        <a class="nav" href="HOME.html"><span id="home_bt">HOME</span></a><a class="nav" href="PORTFOLIO.html"><span id="port_bt">PORTFOLIO</span></a><span id="works_bt">WORKS</span><a class="nav" href="ABOUT.html"><span id="about_bt">ABOUT</span><a class="nav" href="CONTACT.html"><span id="con_bt">CONTACT</span></a>
+    </div>
+          <img id="logo_pic" src="images_for_portfolio/logo6.png">
+          <img id="works_pic" src="images_for_works/works_pic.png">
+          <p id="text">In this page, I have presented some of my works of programmings.Besides,I have created another webpage of some problems so that you can get help in your programming. Scroll down or use the two buttons below to have a shortcut .</p>
+          <p id="buttons">
+           <a class="nav" href="works_my_programs.html"><span id="my_programs_bt">My programming</span></a><a class="nav" href="works_basic_prob.html"><span id="prob_bt">Basic Problems</span></a>
+         </p>
+         <div class="text2">
+         <img class="my_prog_pic" src="images_for_works/my_programming_text.png">
+         <p class="under_lang_text">
+      	       Use your IDE (example:Pydroid 3) to see the output.But don't use it at your own name because I can give you copyright and that will not be good for you.To get a comfortable display of the codes,click 'Show simplified view' on the lowest part of the screen(Chrome browser)</p>
+   			</p>		
+     <p class="lang_text">Python</p>
+        
+        
+   <h3><p class="program_text">FACTORIZING PROGRAM(LINES:14)</p></h3>
+        <div class="under_program_text">When any one integer number is input in this software, the software collects all the factors of the number in a list.The main engine of this software is a while loop which starts dividing the number input by all the numbers starting from 1.  An if....else block collects the number in the list only when a number divides the input number.Since the program divides the input number by all the numbers from one to the input number,it takes a little time if a large number such as 100 million is input.</dv>
+        <p id="code1">
+            <pre>ask_factorizable_num=int(input('Factorizable num:'))
+factors=[ ]
+i=1
+while i<= ask_factorizable_num:
+  if ask_factorizable_num % i ==0:
+    factors.append(i)
+  i+=1
+print('Factors of ',ask_factorizable_num,'=',factors)
+total=len(factors)
+print('Total factors of',ask_factorizable_num,':',total)
+if total== 2:
+  print('Details:',ask_factorizable_num, 'is a basic(মৌলিক সংখ্যা) number')
+else:
+  print('Details:',ask_factorizable_num,'is not a basic (মৌলিক সংখ্যা) number')</pre>
+        </p>
+    <h3><p class="program_text">COMPLEX FACTORIZING PROGRAM(LINES:31)</p></h3>
+      <div class="under_program_text"> When the integer number is above 100M the previous program took about 3 minutes.In this software it will come down at 50 seconds. Yes this program will factorize the number(over 100M) in only 1 minute.It uses some unique techniques and a pattern invented by me.</div>
+       <p id="code2">
+            <pre>
+ask_factorizable_num=int(input('Factorizable num:'))
+factors=[ ]
+i=1
+half=ask_factorizable_num / 2
+if ask_factorizable_num % 2!= 0:
+  half2= ask_factorizable_num // 2
+  while i<= half2:
+    if ask_factorizable_num % i ==0:
+      factors.append(i)
+    i+=2
+  factors.append(ask_factorizable_num)
+  print('Factors of ',ask_factorizable_num,'=',factors)
+  total=len(factors)
+  print('Total factors of',ask_factorizable_num,':',	total)
+  if total== 2:
+    print('Details:',ask_factorizable_num, 'is a  	prime(মৌলিক সংখ্যা) number')
+  else:
+    print('Details:',ask_factorizable_num,'is not a prime (মৌলিক সংখ্যা) number')
+elif ask_factorizable_num % 2 ==0:
+  while i<= half:
+    if ask_factorizable_num % i ==0:
+      factors.append(i)
+    i+=1
+  factors.append(ask_factorizable_num)
+  print('Factors of ',ask_factorizable_num,'=',factors)
+  total=len(factors)
+  print('Total factors of',ask_factorizable_num,':',	total)
+  if total== 2:
+    print('Details:',ask_factorizable_num, 'is a 	prime(মৌলিক সংখ্যা) number')
+  else:
+    print('Details:',ask_factorizable_num,'is not a   prime (মৌলিক সংখ্যা) number')
+	
+            </pre>
+    </p>
+        <h3><p class="program_text">CALCULATOR PROGRAM(LINES:25)</p></h3>
+            <div class="under_program_text">This is a very simple program of if...else blocks.This was my first calculor program in life.</div>
+            <p id="code3">
+                <pre>x=input("Please type the first number.")
+print('First number:',x)
+symbol=input('Enter symbol:')
+print('symbol:',symbol)
+y=input('Please type the last number.')
+print('Last number:',y)
+print('......................')
+print('Your equation is:',x+symbol+y)
+print('Your equation is being solved')
+print('...............')
+if symbol=='+':
+    answer=int(x)+int(y)
+    print('Answer:',answer)
+if symbol=='-':
+    answer=int(x)-int(y)
+    print('Answer:',answer)
+if symbol=='×':
+    answer=int(x)*int(y)
+    print('Answer:',answer)
+if symbol=='÷':
+    answer=int(x)/int(y)
+    print('Answer:',answer)
+if symbol=='%':
+    answer=int(x)*int(y)
+    print('Answer:',answer/100)</pre>
+            </p>
+		<h3><p class="program_text">COMPLEX CALCULATOR PROGRAM(LINES:237) </p></h3>
+   		<div class="under_program_text">This is a much complex and large program.In this software,the calculator is me.So,the program will also behave like me.It can understand your mistakes and replace it according to your mistake.The factorizing program is also included in it.In a word, it is a much developed calculator.</div>
+       <p id="code4">
+            <pre>print('Enter the section number you want:')
+print('1.Primary calculation')
+print('2.Factors of an integer number')
+
+
+sec_num=input('Enter section number:')
+
+
+sec_nums=['1','2','3','4','5','one','One','two','Two','three','Three','four','Four','five','Five','no.1','no1','no 1','no.one','no one','number one','number1','number 1','number.1','number.one','No.1','No 1','No1','No one','No.one','Section 1','Section.1','Section1','section1','Section one','Section One','Section no one','Section number one','section 1','section.1','section one','section One','section no one','section number one','no.2','no2','no 2','no.two','no two','number two','number2','number 2','number.2','number.two','No.2','Section2','section2','No 2','No2','No two','No.two','Section 2','Section.2','Section two','Section Two','Section no two','Section number two','section 2','section.2','section two','section Two','section no two','section number two']
+
+
+sec_num1=['1','one','One','no.1','no1','no 1','no.one','no one','number one','number1','number 1','number.1','number.one','No.1','Section1','section1','No 1','No1','No one','No.one','Section 1','Section.1','Section one','Section One','Section no one','Section number one','section 1','section.1','section one','section One','section no one','section number one']
+
+sec_num2=[ 'no.2','no2','no 2','no.two','no two','number two','number2','number 2','number.2','number.two','No.2','Section2','section2','No 2','No2','No two','No.two','Section 2','Section.2','Section two','Section Two','Section no two','Section number two','section 2','section.2','section two','section Two','section no two','section number two','2','two','Two']
+
+
+
+
+#function for addition
+def addition(a,b,c):
+  print('Equation:',a,'+',c)
+  ans= a+c
+  if ans %1==0:
+    variable=int(ans)
+    print('Answer:',variable)
+  else:
+    print('Answer:',a+c)
+
+#function for minus
+def minus(a,b,c):
+  print('Equation:',a,'-',c)
+  ans=a-c
+  if ans% 1==0:
+    v=int(ans)
+    print('Answer:',v)
+  else:
+    print('Answer:',a-c)
+#function for division
+def division(a,b,c):
+  print('Equation:',a,'÷',c)
+  ans=a/c
+  if ans%1==0:
+    v=int(ans)
+    print('Answer:',v)
+  else:
+    print('Answer:',a/c)
+#function for multiplication
+def multiplication(a,b,c):
+  print('Equation:',a,'×',c)
+  ans=a*c
+  if ans % 1==0:
+    v=int(ans)
+    print('Answer:',v)
+  else:
+    print('Answer:',a*c)
+#function for persentage
+def persentage(a,b,c):
+  print('Equation:',a,'×',c,'%')
+  ans=a*c/100
+  if ans % 1==0:
+    v=int(ans)
+    print('Answer:',v)
+  else:
+    print('Answer:',a*c/100)
+
+
+#lists for the symbols
+sy_plus=['+','plus','Plus','Addition','addition']
+sy_pl_ne=['P','p','L','l','U','u','S','s']
+sy_em=[]
+
+sy_mi=['-','minus','Minus']
+sy_mi_ne=['M','I','N','U','S','m','i','n','u','s']
+sy_mi_em=[]
+
+sy_div=['÷','division','Division','/']
+sy_div_ne=['d','i','v','i','s','i','o','n','D','I','V','I','S','I','O','N']
+sy_di_em=[]
+
+sy_mul=['×','*','into','Into','dot','Dot','Multiplication','multiplication']
+sy_into_ne=['i','n','t','o','I','N','T','O']
+sy_into_em=[]
+
+sy_per=['%','persent','Persent','persentage','Persentage','Persentize','persentize']
+sy_per_ne=['P','E','R','S','E','N','T','p','e','r','s','e','n','t']
+sy_per_em=[]
+
+sy_all=['+','plus','Plus','Addition','addition','-','minus','Minus','÷','division','Division','/','×','*','into','Into','dot','Dot','Multiplication','multiplication','%','persent','Persent','persentage','Persentage','Persentize','persentize']
+
+
+#list for other inputs
+yes_li=['Yes','yes','Yeah','yeah','Hm','Hmm','Hmmm','Hm.','Hm..','Hm...','Hm....','Hm.....','Hmm.','Hmm..','Hmm...','Hmm....','Hmm.....','Hmmm.','Hmmm..','Hmmm...','Hmmm....','Hmmm.....','hm','hmm','hmmm','hm.','hm..','hm...','hm....','hm.....','hmm.','hmm..','hmm...','hmm....','hmm.....','hmmm.','hmmm..','hmmm...','hmmm....','hmmm.....']
+
+
+if sec_num not in sec_nums:
+  print('Muntasir: Oops! I could not find it.Please restart the program😥')
+#whole elif block for no1
+elif sec_num in sec_num1:
+  # x means tje first num, y means the symbol and z means tje last number
+  x=float(input('Enter the first number:'))
+  y=input('Enter the symbol:')
+  z=float(input('Enter the last number:'))
+  #if block for addition symbol
+  if y in sy_plus:
+    addition(x,y,z)
+  #if block for minus
+  if y in sy_mi:
+    minus(x,y,z)
+  #if block for divition
+  if y in sy_div:
+    division(x,y,z)
+  #if block for multiplication
+  if y in sy_mul:
+    multiplication(x,y,z)
+  #if block for persentage
+  if y in sy_per:
+    persentage(x,y,z)
+  if y not in sy_all:
+    for i in y:
+      #section for plus
+      if i in sy_pl_ne:
+        sy_em.append(i)
+        total=len(sy_em)
+        if total==3:
+          print('Muntasir: 🤔What is',y,'?','It seems like you wanted to type plus but you typed',y,'.Ok.. No problem when I am here. if you want to continue calculation with plus(+) sign, then enter yes below...')
+          print('Muntasir:Calculate with plus?')
+          ask=input('You:')
+          if ask in yes_li:
+            print('Equation:',x,'+',z)
+            print('Answer:',x+z)
+          else:
+            print('Muntasir:What did you say?')
+            ask_two=input('You:')
+            if ask_two in yes_li:
+              print('Equation:',x,'+',z)
+              print('Answer:',x+z)
+      elif i in sy_mi_ne:
+        sy_mi_em.append(i)
+        total2=len(sy_mi_em)
+        if total2==4:
+          print('Muntasir: 🤔What is',y,'?','It seems like you wanted to type minus but you typed',y,'.Ok.. No problem when I am here. if you want to continue calculation with minus(-) sign, then enter yes below...')
+          print('Muntasir:Calculate with minus?')
+          ask=input('You:')
+          if ask in yes_li:
+            print('Equation:',x,'-',z)
+            print('Answer:',x-z)
+          else:
+            print('Muntasir:What did you say?')
+            ask_two=input('You:')
+            if ask_two in yes_li:
+              print('Equation:',x,'-',z)
+              print('Answer:',x-z)
+      elif i in sy_into_ne:
+        sy_into_em.append(i)
+        total3=len(sy_into_em)
+        if total3==3:
+          print('Muntasir: 🤔What is',y,'?','It seems like you wanted to type into but you typed',y,'.Ok.. No problem when I am here. if you want to continue calculation with into(×)sign, then enter yes below...')
+          print('Muntasir:Calculate with into?')
+          ask=input('You:')
+          if ask in yes_li:
+            print('Equation:',x,'×',z)
+            print('Answer:',x*z)
+          else:
+            print('Muntasir:What did you say?')
+            ask_two=input('You:')
+            if ask_two in yes_li:
+              print('Equation:',x,'×',z)
+              print('Answer:',x*z)
+      elif i in sy_div_ne:
+        sy_di_em.append(i)
+        total4=len(sy_di_em)
+        if total4==7:
+          print('Muntasir: 🤔What is',y,'?','It seems like you wanted to type division but you typed',y,'.Ok.. No problem when I am here. if you want to continue calculation with division(÷)sign, then enter yes below...')
+          print('Muntasir:Calculate with division?')
+          ask=input('You:')
+          if ask in yes_li:
+            print('Equation:',x,'÷',z)
+            print('Answer:',x/z)
+          else:
+            print('Muntasir:What did you say?')
+            ask_two=input('You:')
+            if ask_two in yes_li:
+              print('Equation:',x,'÷',z)
+              print('Answer:',x/z)
+      elif i in sy_per_ne:
+        sy_per_em.append(i)
+        total5=len(sy_per_em)
+        if total5==6:
+          print('Muntasir: 🤔What is',y,'?','It seems like you wanted to type persent but you typed',y,'.Ok.. No problem when I am here. if you want to continue calculation with persent(%) sign, then enter yes below...')
+          ask=input('Muntasir:Calculate with persent?')
+          if ask in yes_li:
+            print('Equation:',x,'%',z)
+            print('Answer:',x/z*100)
+          else:
+            print('Muntasir:What did you say?')
+            ask_two=input('You:')
+            if ask_two in yes_li:
+              print('Equation:',x,'%',z)
+              print('Answer:',x/z*100)
+				
+				
+  elif y not in sy_all:
+    print('Muntasir: Oops! Looks like you entered wrong symbol😅')
+elif sec_num in sec_num2:
+  ask_factorizable_num=int(input('Factorizable num:'))
+  factors=[ ]
+  i=1
+  half=ask_factorizable_num / 2
+  if ask_factorizable_num % 2!= 0:
+    half2= ask_factorizable_num // 2
+    while i<= half2:
+      if ask_factorizable_num % i ==0:
+        factors.append(i)
+      i+=2
+    factors.append(ask_factorizable_num)
+    print('Factors of ',ask_factorizable_num,'=',factors)
+    total=len(factors)
+    print('Total factors of',ask_factorizable_num,':',	total)
+    if total== 2:
+      print('Details:',ask_factorizable_num, 'is a prime(মৌলিক সংখ্যা) number')
+    else:
+      print('Details:',ask_factorizable_num,'is not a prime (মৌলিক সংখ্যা) number')
+  elif ask_factorizable_num % 2 ==0:
+    while i<= half:
+      if ask_factorizable_num % i ==0:
+        factors.append(i)
+      i+=1
+    factors.append(ask_factorizable_num)
+    print('Factors of ',ask_factorizable_num,'=',factors)
+    total=len(factors)
+    print('Total factors of',ask_factorizable_num,':',	total)
+    if total== 2:
+      print('Details:',ask_factorizable_num, 'is a prime(মৌলিক সংখ্যা) number')
+    else:
+      print('Details:',ask_factorizable_num,'is not a prime (মৌলিক সংখ্যা) number')
+else:
+  print('Muntasir:Could not understand your section number')
+</pre>
+     	</p>
+      </div>
+     
+    
+     	<img class="logo2" src="images_for_works/basic_problems_text.png">
+        
+        <div class="text">Have you ever faced various unexpected and horrible problems while programming?  Maybe you've ever solved it.  But most of the time, solving these programs can be very complicated and time consuming. If you have ever published a website, then you must have noticed it.  If you are a beginner then this page of mine can help you save some of your time.</div>
+        
+        <a class="nav" href="form.html"><div class="buttons">Creating a form</div></a>
+        
+        <a class="nav" href="drop_down.html"><div class="buttons">Creating a drop down menu</div></a>
+        
+        <a class="nav" href="table.html"><div class="buttons">Creating a table</div></a>
+        
+        <a class="nav" href="button.html"><div class="buttons">Button tag</div></a>
+        
+        <a class="nav" href="code.html"><div class="buttons">Displaying code</div></a>
+        
+        <a class="nav" href="text_on_image.html"><div class="buttons">Placing text on an image</div></a>
+        
+       	<a class="nav" href="email_link.html"><div class="buttons">Creating a link that sends an email</div></a>
+        
+        <a class="nav" href="tel.html"><div class="buttons">Creating a link that calls a number</div></a>
+        
+        <a class="nav" href="background.html"><div class="buttons">Background image and color</div></a>
+        
+        <a class="nav" href="comment.html"><div class="buttons">Adding comments</div></a>
+        
+        <a class="nav" href="width.html"><div class="buttons">Changing width</div></a>
+        
+        <a class="nav" href="line_height.html"><div class="buttons">Changing line height</div></a>
+        
+        <a class="nav" href="span.html"><div class="buttons">Span tag</div></a>
+        
+    <link rel="stylesheet" type="text/css" href="style_for_works_basic_programs.css">
+
+    </body> 
+</html>
+<link rel="stylesheet" type="text/css" href="style_for_works.css">

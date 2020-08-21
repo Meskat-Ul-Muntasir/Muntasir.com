@@ -1,0 +1,97 @@
+.headings{
+position:absolute;
+top:80px;
+left:650px;
+}
+#home_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+}
+.nav{
+text-decoration:none;
+}
+#port_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+#works_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+#about_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+
+#con_bt{
+font-size:32px;
+font-family:sans-serif;
+color:pink;
+margin-left:35px;
+}
+#logo_pic{
+width:166%;
+}
+#cont_pic{
+    width:80%;
+    margin-top:130px;
+    margin-left:370px;
+}
+#via_facebook{
+width:100%;
+font-size:82px;
+font-family:sans-serif;
+color:whitesmoke;
+margin-top:470px;
+margin-left:60px;
+background-color:dodgerblue;
+padding:40px 260px 40px 260px;
+border-radius:80px;
+}
+#via_email{
+width:100%;
+font-size:82px;
+font-family:sans-serif;
+color:whitesmoke;
+margin-left:60px;
+background-color:dodgerblue;
+padding:40px 260px 40px 260px;
+border-radius:80px;
+}
+#via_mobile_no{
+width:105%;
+font-size:82px;
+font-family:sans-serif;
+color:whitesmoke;
+margin-left:60px;
+background-color:dodgerblue;
+padding:40px 250px 40px 250px;
+border-radius:80px;
+}
+#fb_pic{
+width:12%;
+position: absolute;
+top:1900px;
+left:1150px;
+}
+#email_pic{
+width:12%;
+position: absolute;
+top:2175px;
+left:1000px;
+}
+#mobile_pic{
+width:12%;
+position: absolute;
+top:2440px;
+left:1370px;
+}
+
+

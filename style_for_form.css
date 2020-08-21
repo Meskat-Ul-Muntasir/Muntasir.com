@@ -1,0 +1,102 @@
+.top_left{
+position:absolute;
+top:80px;
+left:650px;
+}
+#home_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+}
+#port_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+#works_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+#about_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+
+#con_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+.nav{
+text-decoration:none;
+}
+#logo_pic{
+width:169%;
+margin-left:40px;
+}
+.parts{
+    width: 125%;
+    margin-left: 70px;
+    font-size: 67px;
+    font-family: sans-serif;
+    padding-top: 70px;
+    color: black;
+}
+pre{
+width: 120%;
+font-size:48px;
+font-family: Consolas,"courier new";
+color:blue;
+background-color:#f1f1f1;
+padding-left: 25px;
+padding-right: 680px;
+padding-top: 30px;
+padding-bottom: 30px;
+border-radius: 35px;
+}
+.hints{
+    width: 160%;
+    font-size: 45px;
+    font-family: sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: black;
+    line-height: 150%;
+}
+.text{
+    margin-left: 70px;
+}
+.logo2{
+    width: 100%;
+    margin-left: 330px;
+    margin-top: 130px;
+    padding-bottom: 120px;
+}
+.output_pics{
+    width: 100%;
+    margin-left: 290px;
+    margin-top: 150px;
+    padding-bottom: 130px;
+}
+.hints_bangla{
+    width: 160%;
+    font-size: 45px;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    color: black;
+    line-height: 150%;
+}
+.bangla_text{
+    font-size: 65px;
+    font-family: sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    margin-left: 640px;
+    color: black;
+}

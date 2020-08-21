@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html>
+    <head>
+      <title>Form making</title>
+    </head>
+    <body>
+     <img id="logo_pic" src="images_for_portfolio/logo6.png">
+     
+    <div class="top_left">
+        <a class="nav" href="HOME.html"><span id="home_bt">HOME</span></a><a class="nav" href="PORTFOLIO.html"><span id="port_bt">PORTFOLIO</span></a><a class="nav"href="works.html"><span id="works_bt">WORKS</span></a><a class="nav" href="ABOUT.html"><span id="about_bt">ABOUT</span><a class="nav" href="CONTACT.html"><span id="con_bt">CONTACT</span></a>
+    </div>
+     <img class="logo2" src="images_for_works/form.png">
+		<div class="text">
+    <h2><div class="parts">PART 1</div></h2>
+     <div class="hints">Creating a form in HTML is very easy, you just need to use an input tag.  However, just filling in the form with input tags will not be ok.For this you need to use some attributes with the input tag. Below is an example...</div>
+    <div class="parts">CODE:</div>
+		<pre>
+    &lt;form&gt;
+        Username:&lt;input type="text"&gt;&lt;/input&gt;
+        Email:&lt;input type="email"&gt;&lt;/input&gt;
+        Password:&lt;input type="password"&gt;&lt;/input&gt;
+    &lt;form&gt;
+    </pre>
+		 <div class="parts">DISCRIPTION</div>
+     <div class="hints">First you have to create a form tag and type input tag inside it.However, the input tag plays a major role here, not the form tag.Even if you don't type the form tag,it will work.If you just type and leave, then the password will not disappear when you type any password in the form.If I give an example, you will understand it better.When you type a password(Google or Facebook password or any other), it turns into a dot.If only the input tag is typed, then this event will not happen, so you have to put an attribute with the input tag. This is what the "type" attribute does.</div>
+     <div class="parts">OUTPUT</div>
+		 <img class="output_pics" src="images_for_works/output_pic1.jpg">
+		 <h2><div class="parts">PART 2</div></h2>
+		    <div class="hints">Looking at the output above, it is clear how low quality it is.The email text has gone to the right side and the password text has also gone to the right side which we did not expect at all.This is because no special tag is used to show the output in HTML (For example,in Python, print () is used to show the output) ,so the IDE displays it as output whenever any text is written without a tag.In this case, HTML cannot identify the lines separately.So you need to use a p tag(&lt;p&gt;&lt;/p&gt;) to mark the lines separately.You also need to use some code to make the form more beautiful.The code is displayed below</div>
+     <div class="parts">CODE:</div>
+		 <pre>
+&lt;form&gt;
+&lt;p&gt;&lt;input type="text" placeholder="Username"&gt;&lt;/input&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type="email" placeholder="Email">&lt;/input&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type="password"placeholder="Password"&gt;&lt;/input&gt;&lt;/p&gt;
+&lt;button type="submit"&gt;Submit&lt; /button&gt;
+&lt;/form&gt;
+         
+		 </pre>
+		 <div class="parts">DISCRIPTION</div>
+		 <div class="hints">
+		     The main differences between Part 1 and Part 2 are the p tag(&lt;p&gt&lt;/p&gt;),the submit button and the placeholder attribute.The p tag is used here to mark the lines separately.However,it is important to note that the placement of the p tag will not only mark the two lines separately, but will also add an extra line between the two lines.The div tag (&lt;div&gt;&lt;/div&gt;)can be used to avoid this problem.Let's come to the placeholder attribute.For the placeholder attribute,the username, e-mail and password will be displayed in the blank space. If you look at the output image, you can understand it better. Now I will talk about the submit button. There is another option to create a button. I have discussed it in detail there.  But now I will say it briefly. All you need to create a button is a button tag(&lt;button&gt;&lt;/button&gt;). A type attribute has been created to create a submit button where the submit text is written.  But be very careful that every letter, symbol, symbol is written correctly and accurately. The program will not work if one letter is wrong.
+		    </div>
+		  	<div class="parts">OUTPUT</div>
+		    <img class="output_pics" src="images_for_works/output_pic2.jpg">
+    <div class="parts">Some more purpose of type values:</div>
+		    <img class="output_pics" src="images_for_works/form_table.jpg">
+		 <p class="bangla_text"> বাংলায় </p>
+		    <h2><div class="parts">পার্ট ১</div></h2>
+		    <div class="hints_bangla"> এইচটিএমএল এ একটা ফর্ম ক্রিয়েট করা বলতে গেলে খুবই সহজ তোমাকে শুধু একটা ইনপুট ট্যাগ  ইউজ করতে হবে। তবে কেবল ইনপুট  ট্যাগ দিয়েই তোমার ফরমটি পরিপূর্ণ  হবে না। এজন্য তোমাকে ইনপুট ট্যাগটির সাথে কিছু এট্রিবিউট ইউজ করতে হবে। নিচে তার প্রোগ্রামটি দেওয়া হলো।</div>
+		<div class="parts">কোড:</div>
+		<pre>
+    &lt;form&gt;
+        Username:&lt;input type="text"&gt;&lt;/input&gt;
+        Email:&lt;input type="email"&gt;&lt;/input&gt;
+        Password:&lt;input type="password"&gt;&lt;/input&gt;
+    &lt;form&gt;
+    </pre>
+		<div class="parts"> ব্যাখ্যা </div>
+		    <div class="hints_bangla"> প্রথমে একটি ফর্ম ট্যাগ ক্রিয়েট করে তার ভেতরে ইনপুট ট্যাগ টাইপ করতে হবে। তবে  ইনপুট ট্যাগ টি এখানে মুখ্য ভূমিকা পালন করে ফরম ট্যাগটি  নয়। ফর্ম ট্যাগটি টাইপ না করলেও হবে। যদি শুধু এটুকুই টাইপ করে রেখে দেওয়া হয় তাহলে এখন ফর্মে কোন পাসওয়ার্ড টাইপ করা হলে তখন পাসওয়ার্ড অদৃশ্য হবে না। একটা উদাহরণ দিলে সেটা ভালো করে বুঝতে পারবে। যখন তুমি গুগল, ফেসবুক কিংবা অন্য কোন সাইটে  কোন পাসওয়ার্ড টাইপ করো তখন সেটা অবশ্যই ডটে পরিণত হয়ে যায়। যদি শুধু ইনপুট ট্যাগ টি টাইপ করে রেখে দেওয়া হয় তাহলে এই ঘটনাটি ঘটবে না এজন্য ইনপুট ট্যাগ টির  সাথে একটা এট্রিবিউট লাগাতে হবে। কি এবার বোঝা গেল টাইপ এট্রিবিউট টি কেন ব্যবহার করা হয়েছে ?  </div>
+		<div class="parts"> আউটপুট:</div>
+		 <img class="output_pics" src="images_for_works/output_pic1.jpg">
+		    <h2><div class="parts">পার্ট ২</div></h2>
+		    <div class="hints_bangla">
+             উপরের আউটপুট টি দেখে নিশ্চয়ই বোঝা যাচ্ছে এটি কতইনা নিম্নমানের।ইমেইল লেখাটা ডান পাশে চলে গেছে এবং পাসওয়ার্ড  লেখাটাও ডান পাশে চলে গেছে যেটা আমরা একেবারে আশা করিনি। এটার কারণ হচ্ছে এইচটিএমএল এ আউটপুট দেখানোর জন্য কোন বিশেষ ট্যাগ ব্যবহার করা হয় না (যেমন পাইথনে আউটপুট দেখানোর জন্য print() ব্যবহার করা হয়),তাই কোন  ট্যাগ ব্যতীত যে কোনো টেক্সট লেখা থাকলেই আইডি ই সেটাকে আউটপুট হিসেবে প্রদর্শন করে। এক্ষেত্রে এইচটিএমএল লাইনগুলোকে আলাদাভাবে চিহ্নিত করতে পারে না। লাইনগুলোকে আলাদাভাবে চিহ্নিত করার জন্য তাই আপনাকে একটি পি ট্যাগ ইউজ করতে হবে। এছাড়াও ফ্রম  টিকে আরও সৌন্দর্যমন্ডিত করার জন্য কিছু কোড ব্যবহার করতে হবে। নিচে কোডটি প্রদর্শন করা  হলো
+		</div>
+		  <div class="parts">কোড:</div>
+		 <pre>
+&lt;form&gt;
+&lt;p&gt;&lt;input type="text" placeholder="Username"&gt;&lt;/input&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type="email" placeholder="Email">&lt;/input&gt;&lt;/p&gt;
+&lt;p&gt;&lt;input type="password"placeholder="Password"&gt;&lt;/input&gt;&lt;/p&gt;
+&lt;button type="submit"&gt;Submit&lt; /button&gt;
+&lt;/form&gt;
+         
+		 </pre>
+		    <div class="parts"> ব্যাখ্যা</div>
+		    <div class="hints_bangla">
+        পার্ট ১ এবং পার্ট ২ এর মধ্যে প্রধান পার্থক্য হলো পি ট্যাগ,সাবমিট বাটন এবং প্লেস হোল্ডার এট্রিবিউট। লাইনগুলোকে আলাদাভাবে চিহ্নিত করার জন্যই এখানে পি ট্যাগটি ব্যবহার করা হয়েছে। তবে এখানে বলে রাখা ভালো যে পি ট্যাগটি  বসানোর কারণে লাইন দুটি যে শুধু আলাদাভাবে চিহ্নিত করায় হবে তা নয় বরং লাইন দুটির মাঝখানে একটি এক্সট্রা লাইনও যুক্ত হয়ে যাবে। এ সমস্যা এড়ানোর জন্য div ট্যাগ(&lt;div&gt;&lt;/div&gt;) টি  ব্যবহার করা যেতে পারে। এবার আসি প্লেস হোল্ডার এট্রিবিউট  এর কাছে। প্লেস হোল্ডার এট্রিবিউট এর জন্য ইউজারনেম, ই-মেইল এবং পাসওয়ার্ড লেখাটি শূন্য স্থানের ভেতরে প্রদর্শন করা হবে। আউটপুটের চিত্রটি দেখলে সেটি ভালো করে বুঝতে পারবা।এবার সাবমিট বাটন এর ব্যাপারে বলি।বাটন ক্রিয়েট করার ব্যাপারে আরেকটি অপশন  আছে সেখানে সেটি বিস্তারিতভাবে আলোচনা করেছি। তবে এখন আমি সামান্য সংক্ষেপে এটা  বলছি।বাটন ক্রিয়েট করার জন্য যেটা প্রয়োজন সেটি হচ্ছে বাটন ট্যাগ।সাবমিট বাটন তৈরি করার জন্য একটি টাইপ এট্রিবিউট তৈরি করা হয়েছে যেখানে সাবমিট টেক্সট লেখা রয়েছে। কিন্তু এখানে খুবই সতর্ক থাকতে হবে যেন প্রত্যেকটা অক্ষর, চিহ্ন সবই সঠিকভাবে এবং নির্ভুল ভাবে লেখা হয়।একটি অক্ষর ভুল হলেই প্রোগ্রাম কাজ করবেনা।
+		    </div>
+		 <div class="parts">আউটপুট:</div>
+		 <img class="output_pics" src="images_for_works/output_pic2.jpg">
+		    <div class="parts">টাইপ এট্রিবিউট এর আরো কিছু ভ্যালু এর কাজ: </div>
+		    <img class="output_pics" src="images_for_works/form_table.jpg">
+    </div>
+    </body> 
+   
+    <link rel="stylesheet" type="text/css" href="style_for_form.css">
+
+</html>

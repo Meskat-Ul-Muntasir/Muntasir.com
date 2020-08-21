@@ -1,0 +1,106 @@
+#logo_pic{
+width:168%;
+margin-left: 30px;
+padding-bottom: 120px;
+}
+.top_left{
+position:absolute;
+top:80px;
+left:650px;
+}
+#home_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+}
+#port_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+#works_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+#about_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+
+#con_bt{
+font-size:32px;
+font-family:sans-serif;
+color:black;
+margin-left:35px;
+}
+.nav{
+    text-decoration: none;
+    }
+#python_text{
+    font-size:60px;
+}
+pre{
+width: 120%;
+font-size: 48px;
+font-family: Consolas,"courier new";
+color:green;
+background-color:#f1f1f1;
+padding-left: 100px;
+padding-right: 730px;
+padding-top: 100px;
+padding-bottom: 100px;
+border-radius: 35px;
+margin-left:10px;
+font-size: 50px;
+}
+.lang_text{
+    font-size: 56px;
+    font-family: sans-serif;
+    margin-left: 70px;
+    background-color: steelblue;
+    padding: 20px 1450px 20px 50px;
+    border-radius: 20px;
+    color: white;
+}
+.under_lang_text{
+    width: 160%;
+    font-family: sans-serif;
+    font-size: 45px;
+    padding-left: 100px;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+.program_text{
+    width: 125%;
+    margin-left: 70px;
+    font-size: 67px;
+    font-family: sans-serif;
+    padding-top: 70px;
+    color: black;
+}
+.under_program_text{
+    width: 155%;
+    font-size: 45px;
+    font-family: sans-serif;
+    padding-top: 40px;
+    padding-bottom: 40px;
+    padding-left: 24px;
+    color: black;
+}
+
+
+.logo2{
+    width: 80%;
+    margin-top: 130px;
+    margin-left: 400px;
+    padding-bottom: 200px;
+}
+
+
+
+
