@@ -98,7 +98,6 @@ font-size:35px;
 font-family:sans-serif;
 color:black;
 margin-left:580px;
-padding-bottom:70px;
 }
 #f9{
 font-size:35px;
@@ -126,6 +125,12 @@ color:black;
 margin-left:520px;
 padding-bottom:170px;
 }
+#f13{
+font-size:35px;
+font-family:sans-serif;
+color:black;
+margin-left:620px;
+padding-bottom:70px;
 .infoes{
 width:100%;
 }
