@@ -3,6 +3,9 @@ width:172%;
 margin-left:0px;
 margin-top:0px;
 }
+a{
+text-decoration:none;
+}
 #info_pic{
 width:12%;
 margin-left:685px;
@@ -134,6 +137,4 @@ padding-bottom:70px;
 .infoes{
 width:100%;
 }
-.nav{
-text-decoration:none;
-}
+
