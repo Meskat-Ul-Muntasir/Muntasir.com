@@ -1,4 +1,7 @@
-
+#marquee{
+    margin-top: 50px;
+    background-color: skyblue;
+}
 .top-right{
 position:absolute;
 top:45px;
